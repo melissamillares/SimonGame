@@ -82,6 +82,7 @@ function checkAnswer(currentLevel) {
 
         // change the h1 title
         $("#level-title").text("Game Over, Press Any Key to Restart");
+        playSound("wrong");
 
         startOver();
     }    
